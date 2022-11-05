@@ -60,7 +60,7 @@ header .navegation li a:hover{
     height: auto;
 }
 .container {
-    width: 85%;
+    width: auto;
     height: auto;
     display: flex;
     box-shadow: 2px 1px 4px rgb(178, 178, 178);
