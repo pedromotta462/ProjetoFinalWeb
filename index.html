@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Projeto final - Aluguel de imóvel </title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    
     <section>
+        
         <header>
             <a href="#"><img src="image/logo.png" alt="logo" class="logo"></a>
             <nav class="navegation">
@@ -16,10 +18,12 @@
                     <li><a href="index.html">Início</a></li>
                     <li><a href="imoveis.html">Imoveis</a></li>
                     <li><a href="contato.html">Contato</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a onclick="document.getElementById('id01').style.display='block'" href="#">Login</a></li>   
+             
                 </ul>
             </nav>
         </header>
+        
         <div class="container">
             <div class="text">
                 <h2>Alugue um <br> <span>IMÓVEL</span></h2>
@@ -33,7 +37,28 @@
             <li><a href="https://www.twitter.com"><img src="image/twitter.png" alt="icone twitter"></a></li>
             <li><a href="https://www.instagram.com"><img src="image/instagram.png" alt="icone instagram"></a></li>
         </ul>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="/action_page.php" method="post">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="image/img_avatar.jpg" alt="Avatar" class="avatar">
+              </div>
+          
+              <div class="container">
+                <label for="uname"><b>Usuário</b></label>
+                <input type="text" placeholder="Digite seu usuário" name="uname" required>
+          
+                <label for="psw"><b>Senha</b></label>
+                <input type="password" placeholder="Digite sua senha" name="psw" required>
+                  
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Lembre-me
+                </label>
+              </div>
+            </form>
+          </div>
     </section>
-
+    <script type="text/javascript" src="javascript/modal.js"></script>
 </body>
 </html>
