@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto final - Aluguel de imóvel </title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 <body>
     
@@ -18,7 +19,7 @@
                     <li><a href="index.html">Início</a></li>
                     <li><a href="imoveis.html">Imoveis</a></li>
                     <li><a href="contato.html">Contato</a></li>
-                    <li><a onclick="document.getElementById('id01').style.display='block'" href="#">Login</a></li>   
+                    <li><a onclick="document.getElementById('modalid').style.display='block'" href="#">Login</a></li>   
              
                 </ul>
             </nav>
@@ -37,13 +38,12 @@
             <li><a href="https://www.twitter.com"><img src="image/twitter.png" alt="icone twitter"></a></li>
             <li><a href="https://www.instagram.com"><img src="image/instagram.png" alt="icone instagram"></a></li>
         </ul>
-        <div id="id01" class="modal">
+        <div id="modalid" class="modal">
             <form class="modal-content animate" action="/action_page.php" method="post">
               <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <span onclick="document.getElementById('modalid').style.display='none'" class="close" title="Close Modal">&times;</span>
                 <img src="image/img_avatar.jpg" alt="Avatar" class="avatar">
               </div>
-          
               <div class="container">
                 <label for="uname"><b>Usuário</b></label>
                 <input type="text" placeholder="Digite seu usuário" name="uname" required>
@@ -57,7 +57,7 @@
                 </label>
               </div>
             </form>
-          </div>
+        </div>
     </section>
     <script type="text/javascript" src="javascript/modal.js"></script>
 </body>

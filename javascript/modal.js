@@ -7,4 +7,5 @@ window.onclick = function(event) {
   }
 }
 // Get the modal
-var modal = document.getElementById('id01');
+var modal = document.getElementById('modalid');
+
