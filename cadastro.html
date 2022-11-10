@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Projeto final - Aluguel de imóvel</title>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#"><img src="image/logo.png" alt="logo" class="logo"></a>
+            <nav class="navegation">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="imoveis.html">Imoveis</a></li>
+                    <li><a href="cadastro.html">Cadastre-se</a></li> 
+                    <li><a href="contato.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="form-image">
+                <img src="image/contact.png">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Contato</h1>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="number">Telefone</label>
+                            <input id="number" type="tel" name="number" placeholder="(xx) x xxxx-xxxx" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="message">Mensagem</label>
+                            <textarea rows="2" cols="70" id="message" type="text" name="message" placeholder="Digite sua mensagem" required></textarea>
+                        </div>
+                    </div>
+                    <div class="send-button">
+                        <button><a href="#">Enviar</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
