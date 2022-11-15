@@ -4,7 +4,7 @@ function logar() {
     var senha = document.getElementById('senha').value;
 
     if(login == "admin" && senha == "admin"){
-        alert("Sucesso");
+        alert("Autenticação feita com sucesso!");
         location.href = "Usuário.html";
 
     }else{
