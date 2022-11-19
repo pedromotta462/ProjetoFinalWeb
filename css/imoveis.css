@@ -15,6 +15,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: #ececec;
 }
 header{
@@ -60,59 +61,48 @@ header .navegation li a:hover{
     height: auto;
 }
 .container {
-    width: auto;
+    width: 980px;
     height: auto;
-    display: flex;
-    box-shadow: 2px 1px 4px rgb(178, 178, 178);
+    display: block;
+    box-shadow: 2px 1px 4px #410096;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 500px;
 }
-.properties {
-    padding-left: 10px;
+#first {
+    margin-top: 600px;
+}
+.property-box img {
+    width: 300px;
+    height: 250px;
     display: inline-block;
 }
 .info {
-    border-radius: 5px;
-    display:flex;  
-    height: 40px;
+    display: inline-block;
 }
-.prop-boxes {
-    margin-bottom: 15px;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    box-shadow: 2px 1px 4px rgb(178, 178, 178);
+.info h1{
+    padding-top: 0px;
+    margin-left: 30px;
 }
-.box-left-side {
-    display: flex;
+.info p {
+    padding-bottom: 100px;
+    margin-left: 30px;
 }
-.box-left-side img {
-    width: 300px;
-    height: 230px;
+.info h4 {
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
-.icon {
-    padding-right: 20px;
-    display:flex;
-    align-items: flex-end;
-    position: relative;
-    left: -285px;
-    top: -30px;
+.info img{
+    width: 32px;
+    height: 32px;
+    margin-left: 50px;
 }
-.icon img{
-    width: 30px;
-    height: 30px;
+.info img:nth-child(4) {
+    margin-left: 30px;
 }
-.price {
-    position: relative;
-    top: -170px;
-    left: 45px;
+.info img:nth-child(10) {
+    margin-right: 5px;
 }
-.address {
-    position: relative;
-    top: -60px;
-    left: -125px;
-}
-span {
-    padding-left: 5px;
+.info span, sub {
+    margin: 4px 0px;
+    position: absolute;
 }
