@@ -62,6 +62,20 @@ header .navegation li a:hover{
 	width: 400px;
 	margin-right: 200px;
 }
+
+.form-image{
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    padding: 1rem;
+}
+.form-image img{
+    width: 31rem;
+}
+
 .container 
 {
 	position: relative;
@@ -114,7 +128,7 @@ form
 {
 	position: absolute;
 	inset: 2px;
-	background: #a1a1a1;
+	background: #ffffff;
 	padding: 50px 40px;
 	border-radius: 8px;
 	z-index: 2;
@@ -143,7 +157,7 @@ h2
 	outline: none;
 	box-shadow: none;
 	border: none;
-	color: #a1a1a1;
+	color: #ffffff;
 	font-size: 1em;
 	letter-spacing: 0.05em;
 	transition: 0.5s;
@@ -211,10 +225,11 @@ h2
 }
 input[type="submit"]
 {
+	color: #ffffff;
 	border: none;
 	outline: none;
 	padding: 11px 25px;
-	background: #ececec;
+	background: #410096;
 	cursor: pointer;
 	border-radius: 4px;
 	font-weight: 600;
@@ -226,7 +241,7 @@ input[type="submit"]:hover{
 	opacity: 0.8;
 	transform: scale(1.1);
 	background: #410096;
-	color: #ececec;
+	color: #ffffff;
 }
 input[type="submit"]:active 
 {
