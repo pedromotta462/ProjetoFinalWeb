@@ -6,18 +6,7 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
-section{
-    position: relative;
-    padding: 100px;
-	padding-bottom: 20px;
-    overflow: auto;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #ececec;
-}
+
 header{
     position: absolute;
     top: 0;
@@ -98,6 +87,19 @@ header .navegation li a:hover{
 	transform-origin: bottom right;
 	background: linear-gradient(0deg,transparent,#410096,#410096);
 	animation: animate 6s linear infinite;
+}
+
+section{
+    position: relative;
+    padding: 100px;
+	padding-bottom: 20px;
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ececec;
 }
 .container::after 
 {
